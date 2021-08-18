@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crappo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header container">
+        <a href="#" class="header__logo-link">
+            <img class="header__logo-img" src="img/logo.svg" alt="logo">
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a class="header__nav-link" href="#">Products</a>
+                </li>
+                <li class="header__nav-item">
+                    <a class="header__nav-link" href="#">Features</a>
+                </li>
+                <li class="header__nav-item">
+                    <a class="header__nav-link" href="#">About</a>
+                </li>
+                <li class="header__nav-item">
+                    <a class="header__nav-link" href="#">Contact</a>
+                </li>
+                <li class="header__nav-item header__nav-item--login" data-modal-btn="modal-login">
+                    <a class="header__nav-link header__nav-link--login" href="#">Login</a>
+                </li>
+                <li class="header__nav-item header__nav-item--register" data-modal-btn="modal-register">
+                    <a class="header__nav-link header__nav-link--register btn" href="#">Register</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="intro__container container">
+
+            <div class="intro__content">
+                <p class="intro__sale">
+                    <span>75% SAVE</span> For the Black Friday weekend
+                </p>
+                <h1 class="intro__title">Fastest & secure platform to invest in crypto</h1>
+                <p class="intro__descr">
+                    Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.
+                </p>
+                <a class="intro__link btn" href="#">Try for FREE</a>
+            </div>
+            <div class="intro__img-block">
+                <img class="intro__img" src="img/illustration.svg" alt="Illustration">
+            </div>
+        </div>
+    </section>
+    <div class="stat">
+        <div class="stat__container container">
+
+            <div class="stat-item">
+                <div class="stat-item__icon stat-item__icon--01">
+                </div>
+                <p class="stat-item__text">
+                    <span>$30B</span> Digital Currency Exchanged
+                </p>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-item__icon stat-item__icon--02">
+                </div>
+                <p class="stat-item__text">
+                    <span>10M+</span> Trusted Wallets Investor
+                </p>
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-item__icon stat-item__icon--03">
+                </div>
+                <p class="stat-item__text">
+                    <span>195</span> Countries Supported
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="text">
+        <div class="text__container container">
+            <h2 class="text__title">Check how much you can earn</h2>
+            <p class="text__descr">
+                Let’s check your hash rate to see how much you will earn today, Exercitation veniam consequat sunt nostrud amet.
+            </p>
+        </div>
+    </div>
+
+    <div class="calc-top">
+        <input class="calc-top__input" type="text" placeholder="Enter your hash rate">
+        <select class="calc-top__select">
+						<option value="th">TH/s</option>
+						<option value="kh">kH/s</option>
+						<option value="mh">MH/s</option>
+						<option value="gh">GH/s</option>
+						<option value="ph">PH/s</option>
+						<option value="eh">EH/s</option>
+				</select>
+        <button class="calc-top__btn btn" type="submit">Calculate</button>
+    </div>
+
+    <div class="page-light">
+        <div class="calk-bottom">
+            <p class="calk-bottom__title">
+                ESTIMATED 24 HOUR REVENUE:
+            </p>
+            <p class="calk-bottom__total">
+                0.055 130 59 ETH <span>($1275)</span>
+            </p>
+            <p class="calk-bottom__descr">
+                Revenue will change based on mining difficulty and Ethereum price.
+            </p>
+        </div>
+
+        <section class="market container">
+            <h2 class="market__tittle">
+                Trade securely and market the high growth cryptocurrencies.
+            </h2>
+            <ul class="market__tlist">
+
+                <li class="market__item">
+                    <img src="img/bitcoin.svg" alt="bitcoin">
+                    <h3 class="market__item-title">Bitcoin<sup>BTC</sup>
+                    </h3>
+                    <p class="market__descr">
+                        Digital currency in which a record of transactions is maintained.
+                    </p>
+                    <a class="market__btn btn" href="#">
+                        <span class="market__btn-text">
+														Start mining
+												</span>
+                        <span class="market__btn-icon"></span>
+                    </a>
+                </li>
+
+                <li class="market__item">
+                    <img src="img/ethereum.svg" alt="Ethereum">
+                    <h3 class="market__item-title">Ethereum<sup>ETH</sup>
+                    </h3>
+                    <p class="market__descr">
+                        Cryptocurrency that enables instant payments to anyone in the world.
+                    </p>
+                    <a class="market__btn btn" href="#">
+                        <span class="market__btn-text">
+													Start mining
+											</span>
+                        <span class="market__btn-icon"></span>
+                    </a>
+                </li>
+
+                <li class="market__item">
+                    <img src="img/litecoin.svg" alt="litecoin">
+                    <h3 class="market__item-title">Litecoin<sup>LTC</sup>
+                    </h3>
+                    <p class="market__descr">
+                        Cryptocurrency that enables instant payments to anyone in the world.
+                    </p>
+                    <a class="market__btn btn" href="#">
+                        <span class="market__btn-text">
+												Start mining
+										</span>
+                        <span class="market__btn-icon"></span>
+                    </a>
+                </li>
+
+            </ul>
+        </section>
+    </div>
+
+    <div class="page-gradient">
+        <div class="form-text__container container">
+            <div class="form-text__block">
+                <div class="form-text">
+                    <h3 class="form-text__title">Start mining now</h3>
+                    <p class="form-text__descr">
+                        Join now with CRAPPO to get the latest news and start mining now
+                    </p>
+                </div>
+                <form class="form-letter" action="/" method="post">
+                    <input class="form-letter__input" type="email" placeholder="Enter your email">
+                    <button class="form-letter__btn" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__text">
+                ©2021 CRAPPO. All rights reserved
+            </p>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="#" target="_blank">
+                        <img class="footer__img" src="img/facebook.svg" alt="facebook">
+                    </a>
+                </li>
+
+                <li class="footer__item">
+                    <a class="footer__link" href="#" target="_blank">
+                        <img class="footer__img" src="img/instagram.svg" alt="instagram">
+                    </a>
+                </li>
+
+                <li class="footer__item">
+                    <a class="footer__link" href="#" target="_blank">
+                        <img class="footer__img" src="img/youtube.svg" alt="youtube">
+                    </a>
+                </li>
+
+                <li class="footer__item">
+                    <a class="footer__link" href="#" target="_blank">
+                        <img class="footer__img" src="img/twitter.svg" alt="twitter">
+                    </a>
+                </li>
+
+                <li class="footer__item">
+                    <a class="footer__link" href="#" target="_blank">
+                        <img class="footer__img" src="img/linkedin.svg" alt="linkedin">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+
+    <form class='login-form' data-modal-window="modal-login">
+        <button type="button" class='login-form__close'>
+            <svg height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+								<path d="m256 0c-141.164062 0-256 114.835938-256 256s114.835938 256 256 256 256-114.835938 256-256-114.835938-256-256-256zm0 0" fill="#ffbf00"/>
+								<path class='login-form__close-cross' d="m350.273438 320.105469c8.339843 8.34375 8.339843 21.824219 0 30.167969-4.160157 4.160156-9.621094 6.25-15.085938 6.25-5.460938 0-10.921875-2.089844-15.082031-6.25l-64.105469-64.109376-64.105469 64.109376c-4.160156 4.160156-9.621093 6.25-15.082031 6.25-5.464844 0-10.925781-2.089844-15.085938-6.25-8.339843-8.34375-8.339843-21.824219 0-30.167969l64.109376-64.105469-64.109376-64.105469c-8.339843-8.34375-8.339843-21.824219 0-30.167969 8.34375-8.339843 21.824219-8.339843 30.167969 0l64.105469 64.109376 64.105469-64.109376c8.34375-8.339843 21.824219-8.339843 30.167969 0 8.339843 8.34375 8.339843 21.824219 0 30.167969l-64.109376 64.105469zm0 0" fill="#fafafa"/>
+						</svg>
+        </button>
+        <div class="flex-row logo">
+            <h1>LOGIN</h1>
+        </div>
+        <div class="flex-row">
+            <input id="username" class='lf--input' placeholder='Your username' type='text'>
+        </div>
+        <div class="flex-row">
+            <input id="password" class='lf--input' placeholder='Your password' type='password'>
+        </div>
+        <input class='lf--submit' type='submit' value='Sign Up'>
+        <a class='lf--forgot' href='#'>Already throwing balls? Log In</a>
+    </form>
+
+    <form class='login-form' data-modal-window="modal-register">
+        <button type="button" class='login-form__close'>
+						<svg height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
+								<path d="m256 0c-141.164062 0-256 114.835938-256 256s114.835938 256 256 256 256-114.835938 256-256-114.835938-256-256-256zm0 0" fill="#ffbf00"/>
+								<path class='login-form__close-cross' d="m350.273438 320.105469c8.339843 8.34375 8.339843 21.824219 0 30.167969-4.160157 4.160156-9.621094 6.25-15.085938 6.25-5.460938 0-10.921875-2.089844-15.082031-6.25l-64.105469-64.109376-64.105469 64.109376c-4.160156 4.160156-9.621093 6.25-15.082031 6.25-5.464844 0-10.925781-2.089844-15.085938-6.25-8.339843-8.34375-8.339843-21.824219 0-30.167969l64.109376-64.105469-64.109376-64.105469c-8.339843-8.34375-8.339843-21.824219 0-30.167969 8.34375-8.339843 21.824219-8.339843 30.167969 0l64.105469 64.109376 64.105469-64.109376c8.34375-8.339843 21.824219-8.339843 30.167969 0 8.339843 8.34375 8.339843 21.824219 0 30.167969l-64.109376 64.105469zm0 0" fill="#fafafa"/>
+						</svg>
+				</button>
+        <div class="flex-row logo">
+            <h1>Register</h1>
+        </div>
+        <div class="flex-row">
+            <input id="username" class='lf--input' placeholder='Your username' type='text'>
+        </div>
+        <div class="flex-row">
+            <input id="password" class='lf--input' placeholder='Your password' type='password'>
+        </div>
+        <div class="flex-row">
+            <input id="password" class='lf--input' placeholder='Repeat your password' type='password'>
+        </div>
+        <input class='lf--submit' type='submit' value='Sign Up'>
+        <a class='lf--forgot' href='#'>Already throwing balls? Log In</a>
+    </form>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
